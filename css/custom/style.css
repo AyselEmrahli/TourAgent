@@ -1,0 +1,85 @@
+@font-face {
+	font-family: 'PFSquare';
+	src: url('../../fonts/custom/PFS-Regular.eot');
+	src: local('☺'), 
+			url('../../fonts/custom/PFS-Regular.woff') format('woff'), 
+			url('../../fonts/custom/PFS-Regular.ttf') format('truetype'), 
+			url('../../fonts/custom/PFS-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'DINPro';
+	src: url('../../fonts/custom/DINPro-Regular.eot');
+	src: local('☺'), 
+			url('../../fonts/custom/DINPro-Regular.woff') format('woff'), 
+			url('../../fonts/custom/DINPro-Regular.ttf') format('truetype'), 
+			url('../../fonts/custom/DINPro-Regular.svg') format('svg');
+}
+
+/*--------------------------------------------*/
+
+/*
+* 	<COMMON SELECTORS>
+*/
+.section-title{
+	text-align: center;
+	font-family: 'DINPro';
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #0277BD;
+	margin-bottom: 0;
+}
+
+.section-icon{
+	width:86px;
+	margin: 0 auto;
+	display: block;
+	opacity: .7;
+}
+/*
+* 	</ COMMON SELECTORS>
+*/
+
+/*--------------------------------------------*/
+
+/*
+*  <POPULAR PLACES STYLES>
+*/
+#popular-places{
+	/*background: #ECEFF1;*/
+	background: #F5F5F5;
+	height: auto;
+}
+
+#popular-places .places-wrap>.row>div{
+	padding: 0;
+}
+
+.places-wrap{
+	margin-top: 15px;
+}
+
+.places-wrap .thumbnail{
+	border:none;
+	background: none;
+	margin-bottom: 0;
+	padding: 5px;
+}
+
+.places-wrap .thumbnail>img{
+	border-radius: 3px;
+	-webkit-filter: brightness(50%);
+	filter: brightness(50%);
+	transition: all 1s ease;
+}
+
+.places-wrap .thumbnail>img:hover{
+	-webkit-filter: brightness(100%);
+	filter: brightness(100%);
+}
+/*
+*  </ POPULAR PLACES STYLES>
+*/
+
+/*--------------------------------------------*/
