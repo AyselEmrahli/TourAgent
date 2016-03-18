@@ -56,62 +56,62 @@
                 <div class="row">
                     <div class="col-xs-6 col-md-3">
                         <a href="#" class="thumbnail">
-                            <img src="media/place1.jpg" alt="...">
+                            <img src="media/place1.jpg" alt="New York">
                         </a>
                     </div>
                     <div class="col-xs-6 col-md-3">
                         <a href="#" class="thumbnail">
-                            <img src="media/place1.jpg" alt="...">
+                            <img src="media/place1.jpg" alt="Baku">
                         </a>
                     </div>
                     <div class="col-xs-6 col-md-3">
                         <a href="#" class="thumbnail">
-                            <img src="media/place1.jpg" alt="...">
+                            <img src="media/place1.jpg" alt="Istanbul">
                         </a>
                     </div>
                     <div class="col-xs-6 col-md-3">
                         <a href="#" class="thumbnail">
-                            <img src="media/place1.jpg" alt="...">
+                            <img src="media/place1.jpg" alt="Moscow">
                         </a>
                     </div>
                     <div class="col-xs-6 col-md-3">
                         <a href="#" class="thumbnail">
-                            <img src="media/place1.jpg" alt="...">
+                            <img src="media/place1.jpg" alt="Barcelona">
                         </a>
                     </div>
                     <div class="col-xs-6 col-md-3">
                         <a href="#" class="thumbnail">
-                            <img src="media/place1.jpg" alt="...">
+                            <img src="media/place1.jpg" alt="Milan">
                         </a>
                     </div>
                     <div class="col-xs-6 col-md-3">
                         <a href="#" class="thumbnail">
-                            <img src="media/place1.jpg" alt="...">
+                            <img src="media/place1.jpg" alt="Roma">
                         </a>
                     </div>
                     <div class="col-xs-6 col-md-3">
                         <a href="#" class="thumbnail">
-                            <img src="media/place1.jpg" alt="...">
+                            <img src="media/place1.jpg" alt="Berlin">
                         </a>
                     </div>
                     <div class="col-xs-6 col-md-3">
                         <a href="#" class="thumbnail">
-                            <img src="media/place1.jpg" alt="...">
+                            <img src="media/place1.jpg" alt="Saint Peterburg">
                         </a>
                     </div>
                     <div class="col-xs-6 col-md-3">
                         <a href="#" class="thumbnail">
-                            <img src="media/place1.jpg" alt="...">
+                            <img src="media/place1.jpg" alt="Budapest">
                         </a>
                     </div>
                     <div class="col-xs-6 col-md-3">
                         <a href="#" class="thumbnail">
-                            <img src="media/place1.jpg" alt="...">
+                            <img src="media/place1.jpg" alt="Pragua">
                         </a>
                     </div>
                     <div class="col-xs-6 col-md-3">
                         <a href="#" class="thumbnail">
-                            <img src="media/place1.jpg" alt="...">
+                            <img src="media/place1.jpg" alt="London">
                         </a>
                     </div>
                 </div>
@@ -148,3 +148,39 @@
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+            $(".places-wrap .thumbnail img").each(function() {
+            var placeName = $(this).attr("alt");
+            if (placeName != '') {
+                var imgHeight = $(this).height();
+                var position = $(this).position();
+                var positionTop = ((position.top + imgHeight)/2.2)
+                $("<span class='img-caption'>" + placeName +
+                    "</span>").css({
+                    "font-family":"PFSquare-Thin",
+                    "position": "absolute",
+                    "color": "#fff",
+                    "top": positionTop + "px",
+                    "text-align":"center",
+                    "font-size":"2vmax",
+                    "text-transform":"uppercase",
+                    "width": "100%",
+                    "transition":"all 1s ease"
+                }).insertAfter(this);
+            }
+        });
+
+        $(".places-wrap .thumbnail span").mouseenter(function(){
+            $(this).prev().css({
+                "-webkit-filter":"brightness(100%)",
+                "filter":"brightness(100%)"
+            });       
+        });
+
+        $(".places-wrap .thumbnail span").mouseleave(function(){
+            $(this).prev().removeAttr('style');   
+        });
+    });
+</script>
