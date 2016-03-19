@@ -32,13 +32,60 @@
     <!-- TOP SECTION END HERE -->
 
     <!-- ADVANTAGES START HERE >>THIS SECTION FOR ORKHAN -->
-    <div id="advatages">
+    <div id="advantages">
 
         <div class="container">
             <div class="row">
                 <h1 class="section-title">Üstünlüklərİmİz</h1>
                 <img class="section-icon" src="media/icon2.png" alt="">
             </div>
+        </div>
+
+        <div class="container-fluid">
+       		<div class="row">
+       			<div class="col-md-7 col-sm-7 col-xs-12  pull-left">
+       				<h3>100+ TURİZM VƏ SƏYAHƏT AGENTLİKLƏRİ BİRARADA</h3>
+       				<p>
+       					100-DƏN ÇOX TURİZM VƏ SƏYAHƏT AGENTLİKLƏRİNƏ MƏXSUS ÖLKƏ DAXİLİ 
+						VƏ ÖLKƏ XARİCİ TURLAR VƏ SƏYAHƏT PAKETLƏRİNİ SİZLƏRİN RAHATLIĞI
+						ÜÇÜN BİR PLATFORMADA TOPLADIQ
+					</p>
+					<a href="#" class="btn btn-default">SİYAHI</a>
+       			</div>
+       			<div style="padding: 0;" class="col-md-5 col-sm-5 col-xs-12 pull-right">
+       				<img class="pull-right img-responsive" src="media/p1.png">
+       			</div>
+       		</div>
+        	<div class="seperator"><img src="media/seperator.png"></div>
+        	<div class="row">
+       			<div class="col-md-7 col-sm-7 col-xs-12 pull-right">
+       				<h3>ONLAYN SİFARİŞ</h3>
+       				<p>
+       					Seçim etdiyiniz tur və ya səyahət paketlərinə,otellərə 
+						və avtomobil icarələrinə TOURAGENT.AZ vasitəsilə 
+						onlayn sifariş edə bilərsiniz
+					</p>
+					<a href="#" class="btn btn-default">SİYAHI</a>
+       			</div>
+       			<div style="padding: 0;" class="col-md-5 col-sm-5 col-xs-12 pull-left">
+       				<img class="pull-left img-responsive" src="media/p2.png">
+       			</div>
+       		</div>
+        	<div class="seperator"><img src="media/seperator.png"></div>
+        	<div class="row">
+       			<div class="col-md-7 col-sm-7 col-xs-12  pull-left">
+       				<h3>ONLAYN ÖDƏNİŞ</h3>
+       				<p>
+       					VAXTIMIZ DƏYƏRLİDİR. vATIMIZA QƏNAƏT ÜÇÜN 
+						PORTALDAN İSTİFADƏ ZAMANI SİZƏ SİFARİŞLƏRİNİZİ
+						ONLAYN ÖDƏMƏ İMKANINI YARADIRIQ!
+					</p>
+					<a href="#" class="btn btn-default">SİYAHI</a>
+       			</div>
+       			<div style="padding: 0;" class="col-md-5 col-sm-5 col-xs-12 pull-right">
+       				<img class="pull-right img-responsive" src="media/p3.png">
+       			</div>
+       		</div>
         </div>
 
     </div>
