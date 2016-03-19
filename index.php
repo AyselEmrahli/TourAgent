@@ -48,70 +48,101 @@
 
         <div class="container">
             <div class="row">
-                <h1 class="section-title">BU yerlərə heyran qalacaqsınıZ</h1>
+                <h1 class="section-title">Ən maraqlı yerlər</h1>
                 <img class="section-icon" src="media/icon3.png" alt="">
+                <p class="section-desc"> Bu yerlərə heyran qalacaqsınız!</p>
             </div>
 
             <div class="places-wrap">
                 <div class="row">
-                    <div class="col-xs-6 col-md-3">
-                        <a href="#" class="thumbnail">
-                            <img src="media/place1.jpg" alt="New York">
-                        </a>
-                    </div>
-                    <div class="col-xs-6 col-md-3">
+                    <div class="col-xs-6 col-md-2">
                         <a href="#" class="thumbnail">
                             <img src="media/place1.jpg" alt="Baku">
                         </a>
                     </div>
-                    <div class="col-xs-6 col-md-3">
+                    <div class="col-xs-6 col-md-2">
                         <a href="#" class="thumbnail">
-                            <img src="media/place1.jpg" alt="Istanbul">
+                            <img src="media/place2.jpg" alt="Istanbul">
                         </a>
                     </div>
-                    <div class="col-xs-6 col-md-3">
+                    <div class="col-xs-6 col-md-2">
                         <a href="#" class="thumbnail">
-                            <img src="media/place1.jpg" alt="Moscow">
+                            <img src="media/place3.jpg" alt="Budapest">
                         </a>
                     </div>
-                    <div class="col-xs-6 col-md-3">
+                    <div class="col-xs-6 col-md-2">
                         <a href="#" class="thumbnail">
-                            <img src="media/place1.jpg" alt="Barcelona">
+                            <img src="media/place4.jpg" alt="London">
                         </a>
                     </div>
-                    <div class="col-xs-6 col-md-3">
+                    <div class="col-xs-6 col-md-2">
                         <a href="#" class="thumbnail">
-                            <img src="media/place1.jpg" alt="Milan">
+                            <img src="media/place5.jpg" alt="Paris">
                         </a>
                     </div>
-                    <div class="col-xs-6 col-md-3">
+                    <div class="col-xs-6 col-md-2">
                         <a href="#" class="thumbnail">
-                            <img src="media/place1.jpg" alt="Roma">
+                            <img src="media/place6.jpg" alt="Berlin">
                         </a>
                     </div>
-                    <div class="col-xs-6 col-md-3">
+                    <div class="col-xs-6 col-md-2">
                         <a href="#" class="thumbnail">
-                            <img src="media/place1.jpg" alt="Berlin">
+                            <img src="media/place7.jpg" alt="Roma">
                         </a>
                     </div>
-                    <div class="col-xs-6 col-md-3">
+                    <div class="col-xs-6 col-md-2">
                         <a href="#" class="thumbnail">
-                            <img src="media/place1.jpg" alt="Saint Peterburg">
+                            <img src="media/place8.jpg" alt="Milan">
                         </a>
                     </div>
-                    <div class="col-xs-6 col-md-3">
+                    <div class="col-xs-6 col-md-2">
                         <a href="#" class="thumbnail">
-                            <img src="media/place1.jpg" alt="Budapest">
+                            <img src="media/place9.jpg" alt="Barcelona">
                         </a>
                     </div>
-                    <div class="col-xs-6 col-md-3">
+                    <div class="col-xs-6 col-md-2">
                         <a href="#" class="thumbnail">
-                            <img src="media/place1.jpg" alt="Pragua">
+                            <img src="media/place10.jpg" alt="Moscow">
                         </a>
                     </div>
-                    <div class="col-xs-6 col-md-3">
+                    <div class="col-xs-6 col-md-2">
                         <a href="#" class="thumbnail">
-                            <img src="media/place1.jpg" alt="London">
+                            <img src="media/place11.jpg" alt="New York">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-md-2">
+                        <a href="#" class="thumbnail">
+                            <img src="media/place12.jpg" alt="Dubai">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-md-2">
+                        <a href="#" class="thumbnail">
+                            <img src="media/place13.jpg" alt="Prague">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-md-2">
+                        <a href="#" class="thumbnail">
+                            <img src="media/place14.jpg" alt="Venice">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-md-2">
+                        <a href="#" class="thumbnail">
+                            <img src="media/place15.jpg" alt="Batumi">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-md-2">
+                        <a href="#" class="thumbnail">
+                            <img src="media/place16.jpg" alt="Sydney">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-md-2">
+                        <a href="#" class="thumbnail">
+                            <img src="media/place17.jpg" alt="Stockholm">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-md-2">
+                        <a href="#" class="thumbnail">
+                            <img src="media/place18.jpg" alt="Saint Petersburg">
                         </a>
                     </div>
                 </div>
@@ -164,7 +195,7 @@
                     "color": "#fff",
                     "top": positionTop + "px",
                     "text-align":"center",
-                    "font-size":"2vmax",
+                    "font-size":"1.5vmax",
                     "text-transform":"uppercase",
                     "width": "100%",
                     "transition":"all 1s ease"
