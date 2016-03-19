@@ -60,6 +60,13 @@
 	display: block;
 	opacity: .7;
 }
+
+.section-desc{
+	text-align: center;
+	font-family: 'DINPro';
+	text-transform: uppercase;
+	font-size: 3vmin;
+}
 /*
 * 	</ COMMON SELECTORS>
 */
