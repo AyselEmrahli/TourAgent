@@ -325,8 +325,22 @@
             </div>
         </div>
     	<div id="footer-bottom">
-    		<div id="copyright"></div>
-    		<div id="language"></div>
+    		<div class="container">
+                <div class="copyright">
+                    &copy; 2016, Bütün hüquqları qorunur</div> 
+                <!-- language section -->
+                <div class="btn-group dropup pull-right col-md-2 col-xs-12">
+                  <button type="button" class="btn pull-right btn-language btn-block dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-globe"></i> Dil seçimi
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Azərbaycan</a></li>
+                    <li><a href="#">Türkçe</a></li>
+                    <li><a href="#">Русский</a></li>
+                    <li><a href="#">English</a></li>
+                  </ul>
+                </div>  
+            </div>
     	</div>
     </div>
     <!-- FOOTER END HERE -->
