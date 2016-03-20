@@ -259,3 +259,49 @@
 /*
 *  </ ADVANTAGES SECTION STYLES>
 */
+
+/*--------------------------------------*/
+
+/*
+*  <SUBSCRIBE SECTION STYLES>
+*/
+#subscribe{
+	min-height: 170px;
+	background-color: #0F3A6D;	
+	font-family: 'PFSquare-Light';
+	padding-top: 30px;
+}
+#subscribe #subscribe-form{
+	margin-top: 30px;
+}
+#subscribe input[name="subscriberEmail"]{
+	height: 50px;
+	background-color: #2668B6;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+}
+#subscribe button[name="submitSubscribe"]{
+	height: 50px;
+	border: none;
+	font-size: 16px;
+}
+#subscribe input:focus{
+	outline: none;
+	box-shadow: none;
+}
+#subscribe ::-webkit-input-placeholder {
+   color: #cacdc6;
+}
+#subscribe :-moz-placeholder { /* Firefox 18- */
+  color: #cacdc6; 
+}
+#subscribe ::-moz-placeholder {  /* Firefox 19+ */
+   color: #cacdc6; 
+}
+#subscribe :-ms-input-placeholder {  
+   color: #cacdc6; 
+}
+/*
+*  </ SUBSCRIBE SECTION STYLES>
+*/
