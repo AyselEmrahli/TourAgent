@@ -21,13 +21,62 @@
   </head>
   <body>
     <!-- TOP SECTION START HERE >>THIS SECTION FOR AYSEL -->
-    <div id="top">
-    	<div id="top-menu">
-    		
-    	</div>
-    	<div class="slider-wrap">
-    		
-    	</div>
+    <div id="top" style="background-image:url('media/top-bg.jpg');">
+        <div id="top-menu">
+            <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#"><img src="media/logo.png" alt=""></a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li class=""><a href="#">Turlar <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Agentliklər</a></li>
+                    <li><a href="#">Otellər</a></li>
+                    <li><a href="#">Rent a Car</a></li>
+                    <li><a href="#">Görməli Yerlər</a></li>
+                    <li><a href="#">Xəbərlər</a></li>
+                  </ul>
+                  <div class="nav navbar-right">
+                      <a href="#" class="btn btn-sign-up">Qeydiyyat</a>
+                      <a href="#" class="btn btn-sign-in">Giriş</a>
+                  </div>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
+        </div>
+        <div class="slider-wrap">
+            <div id="topCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators" >
+                <li data-target="#topCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#topCarousel" data-slide-to="1"></li>
+              </ol>
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <h1>Səyahət etmək artıq daha rahat</h1>
+                  <p>Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry</p>
+                    <a href="#" class="btn btn-start">Axtar</a>
+                </div>
+                <div class="item">
+                  <h1>Səyahət etmək artıq daha rahat</h1>
+                  <p>Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry</p>
+                    <a href="#" class="btn btn-start">Başla</a>
+                </div>
+              </div>
+            </div>
+        </div>
     </div>
     <!-- TOP SECTION END HERE -->
 
