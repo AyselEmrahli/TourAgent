@@ -78,8 +78,98 @@
 	margin: 0 auto;
 	display: block;
 }
+.btn-sign-in{
+	background: transparent;
+	border: 1px solid #fff;
+	color:#fff;
+	width: 70px;
+	transition: all .5s ease;
+}
+.btn-sign-up{
+	background: transparent;
+	border:none;
+	color:#fff;
+	transition: all .5s ease;
+}
+.btn-start{
+	background: transparent;
+	border: 1px solid #fff;
+	color:#fff;
+	width: 150px;
+	height: 50px;
+	border-radius: 10px;
+	line-height: 35px;
+	font-size: 16px;
+	transition: all .5s ease;
+}
+.btn-sign-up:hover, .btn-sign-in:hover, .btn-start:hover{
+	background: #fff;
+	color: #000;
+}
 /*
 * 	</ COMMON SELECTORS>
+*/
+
+/*--------------------------------------------*/
+
+/*
+*  <TOP SECTION STYLES>
+*/
+#top{
+	min-height: 650px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-family: 'DINPro';
+	text-transform: uppercase;
+}
+#top .navbar, #top .navbar-header{
+	min-height: 135px;
+	border: none;
+	border-radius: 0;
+}
+#top .navbar-default{
+	background: none;
+}
+#top .navbar-brand img{
+	width: 135px;
+}
+#top .nav {
+	margin-top: 35px;
+}
+#top .navbar-nav>li a{
+	color: #fff;
+	
+}
+
+#top .navbar-toggle{
+	margin-top: 35px;
+}
+#top .slider-wrap{
+	margin-top: 130px;
+}
+#top .slider-wrap #topCarousel{
+	text-align: center;
+	padding-bottom: 60px;
+}
+
+#topCarousel h1{
+	font-weight: bold;
+	color: #fff;
+}
+#topCarousel p{
+	color:#fff;
+	font-size:16px;
+	max-width: 430px;
+	margin:30px auto;
+}
+#topCarousel .carousel-indicators{
+	bottom: 0;
+}
+
+/*
+*  </TOP SECTION STYLES>
 */
 
 /*--------------------------------------------*/
@@ -105,7 +195,6 @@
 	border:none;
 	background: none;
 	margin-bottom: 0;
-	/*padding: 5px;*/
 }
 
 .places-wrap .thumbnail>img{
