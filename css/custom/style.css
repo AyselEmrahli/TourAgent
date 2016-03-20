@@ -266,6 +266,27 @@
 /*
 *  </ ADVANTAGES SECTION STYLES>
 */
+/*--------------------------------------*/
+
+/*
+*  <PARTNERS SECTION STYLES>
+*/
+
+#partners{
+	min-height: 242px;
+	background-color: #EEE;
+}
+
+#partners #partnersCarousel{
+	margin:30px 0px;
+}
+#partners #partnersCarousel img{
+	margin-bottom: 10px;
+}
+
+/*
+*  <PARTNERS SECTION STYLES>
+*/
 
 /*--------------------------------------*/
 
@@ -280,6 +301,7 @@
 }
 #subscribe #subscribe-form{
 	margin-top: 30px;
+	margin-bottom: 30px;
 }
 #subscribe input[name="subscriberEmail"]{
 	height: 50px;
