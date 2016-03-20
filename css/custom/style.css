@@ -305,3 +305,51 @@
 /*
 *  </ SUBSCRIBE SECTION STYLES>
 */
+
+/*----------------------------------------*/
+
+/*
+*  <FOOTER MENU SECTION STYLES>
+*/
+#footer #footer-menu{
+	min-height: 210px;
+	background-color: #1D4F8A;
+	font-family: 'DINPro';
+	padding-top: 20px;
+}
+#footer-menu .container{
+}
+#footer-menu .footer-caption{
+	font-weight: bold;
+	color:#fff;
+	font-size: 16px;
+	display: block;
+	margin-bottom: 10px;
+}
+#footer-menu ul{
+	padding: 0;
+}
+#footer-menu ul>li{
+	list-style: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+#footer-menu ul>li a{
+	color: #cdcbcc;
+}
+
+#footer-menu .apps{
+	width: 150px;
+	margin-bottom: 5px;
+	float: right;
+	opacity: .5;
+	transition: all 1s ease;
+}
+
+#footer-menu .apps:hover{
+	opacity: 1;
+}
+
+/*
+*  </ FOOTER MENU SECTION STYLES>
+*/
