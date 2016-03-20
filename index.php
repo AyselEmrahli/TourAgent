@@ -255,7 +255,35 @@
     <!-- POPULAR PLACES END HERE -->
     <!-- PARTNERS START HERE >>THIS SECTION FOR MUSHVIQ -->    
     <div id="partners">
-    	
+    	<div class="container">
+            <h2 class="section-title">Partnyorlar</h2>
+
+            <div id="partnersCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-2 col-xs-6"><img src="media/partners/l1.jpg" class="img-responsive"></div>
+                        <div class="col-md-2 col-sm-2 col-xs-6"><img src="media/partners/l2.png" class="img-responsive"></div>
+                        <div class="col-md-2 col-sm-2 col-xs-6"><img src="media/partners/l3.jpg" class="img-responsive"></div>
+                        <div class="col-md-2 col-sm-2 col-xs-6"><img src="media/partners/l4.jpg" class="img-responsive"></div>
+                        <div class="col-md-2 col-sm-2 col-xs-6"><img src="media/partners/l5.jpg" class="img-responsive"></div>
+                        <div class="col-md-2 col-sm-2 col-xs-6"><img src="media/partners/l6.png" class="img-responsive"></div>
+                    </div>
+                </div>
+                <div class="item">
+                  <div class="row">
+                        <div class="col-md-2 col-sm-2 col-xs-6"><img src="media/partners/l1.jpg" class="img-responsive"></div>
+                        <div class="col-md-2 col-sm-2 col-xs-6"><img src="media/partners/l2.png" class="img-responsive"></div>
+                        <div class="col-md-2 col-sm-2 col-xs-6"><img src="media/partners/l3.jpg" class="img-responsive"></div>
+                        <div class="col-md-2 col-sm-2 col-xs-6"><img src="media/partners/l4.jpg" class="img-responsive"></div>
+                        <div class="col-md-2 col-sm-2 col-xs-6"><img src="media/partners/l5.jpg" class="img-responsive"></div>
+                        <div class="col-md-2 col-sm-2 col-xs-6"><img src="media/partners/l6.png" class="img-responsive"></div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
     </div>
     <!-- PARTNERS END HERE -->
     <!-- SUBSCRIBE START HERE >>THIS SECTION FOR MUSHVIQ -->    
