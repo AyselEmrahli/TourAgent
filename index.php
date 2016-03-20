@@ -9,6 +9,8 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+     <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <!-- Custom Styles -->
     <link rel="stylesheet" href="css/custom/style.css">
 
@@ -278,8 +280,50 @@
     <!-- FOOTER START HERE >>THIS SECTION FOR MUSHVIQ -->  
     <div id="footer">
     	<div id="footer-menu">
-    		
-    	</div>
+            <div class="container">
+                <div class="col-md-9 pull-left">
+                    <div class="col-md-3">
+                        <span class="footer-caption">TourAgent</span>
+                        <ul>
+                            <li><a href="#" >Haqqımızda</a></li>
+                            <li><a href="#" >Qaydalar &amp; Şərtlər</a></li>
+                            <li><a href="#" >Partnyorluq</a></li>
+                            <li><a href="#" >Reklam</a></li>
+                            <li><a href="#" >Vakansiyalar</a></li>
+                            <li><a href="#" >Əlaqə</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <span class="footer-caption">BİZƏ QOŞULUN</span>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook-official"></i> Facebook</a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i> Instagram</a></li>
+                            <li><a href="#"><i class="fa fa-youtube"></i> Youtube</a></li>
+                            <li><a href="#"><i class="fa fa-vk"></i> Vkontakte</a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i> Google+</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <span class="footer-caption">ƏLAQƏ</span>
+                        <ul>
+                            <li><i class="fa fa-map-marker"></i> AF Business House, 3rd Floor Nizami Str. 203B, Baku, Azerbaijan</li>
+                            <br>
+                            <li><i class="fa fa-phone"></i> +994 50 785 0227</li>
+                            <li><i class="fa fa-envelope-o"></i> info@touragent.az</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <span class="footer-caption pull-right">MOBİL TƏTBİQETMƏLƏR</span>
+                    <ul>
+                        <li><a href="#"><img src="media/googleps.png" class="apps" alt=""></a></li>
+                        <li><a href="#"><img src="media/applestore.png" class="apps" alt=""></a></li>
+                    </ul>
+                </div>      
+            </div>
+        </div>
     	<div id="footer-bottom">
     		<div id="copyright"></div>
     		<div id="language"></div>
