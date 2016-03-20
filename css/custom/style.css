@@ -51,6 +51,7 @@
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #0277BD;
+	/*font-size: 3vmax;*/
 	margin-bottom: 0;
 }
 
@@ -104,7 +105,7 @@
 	border:none;
 	background: none;
 	margin-bottom: 0;
-	padding: 5px;
+	/*padding: 5px;*/
 }
 
 .places-wrap .thumbnail>img{
@@ -134,14 +135,14 @@
 	text-align: center;
 	text-transform: uppercase;
 	font-family: 'DINPro';
-	padding-top: 50px;
+	padding-top: 30px;
 	font-weight: bold;
 }
 #advantages p{
 	text-align: center;
 	text-transform: uppercase;
 	font-family: 'DINPro';
-	padding: 35px 100px;
+	padding: 35px 50px;
 }
 #advantages .btn{
 	margin: 0 auto;
@@ -158,6 +159,13 @@
 #advantages .btn:hover{
 	background: #ffbd26;
 	color: #fff;
+}
+.local-places-title{
+	width: 100%;
+	display: block;
+	font-family: 'PFSquare';
+	padding: 5px 20px;
+	font-size: 19px;
 }
 /*
 *  </ ADVANTAGES SECTION STYLES>
