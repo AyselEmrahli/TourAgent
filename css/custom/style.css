@@ -102,7 +102,14 @@
 	font-size: 16px;
 	transition: all .5s ease;
 }
-.btn-sign-up:hover, .btn-sign-in:hover, .btn-start:hover{
+.btn-language{
+	margin-top: 12px;
+	background: transparent;
+	border-color: #2f6ca2;
+	color: #fff;
+	transition: all .5s ease;
+}
+.btn-sign-up:hover, .btn-sign-in:hover, .btn-start:hover, .btn-language:hover{
 	background: #fff;
 	color: #000;
 }
@@ -309,6 +316,7 @@
 /*----------------------------------------*/
 
 /*
+*** <FOOTER SECTION>
 *  <FOOTER MENU SECTION STYLES>
 */
 #footer #footer-menu{
@@ -350,6 +358,16 @@
 	opacity: 1;
 }
 
-/*
-*  </ FOOTER MENU SECTION STYLES>
-*/
+/*</ FOOTER MENU SECTION STYLES>*/
+/*<FOOTER BOTTOM SECTION STYLES>*/
+#footer-bottom{
+	min-height: 55px;
+	background-color: #347AB8;
+	color: #fff;
+	font-family: 'DINPro';
+}
+#footer-bottom .copyright{
+	line-height: 55px;
+	float: left;
+}
+/*</ FOOTER BOTTOM SECTION STYLES>*/
