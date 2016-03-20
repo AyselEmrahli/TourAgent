@@ -258,7 +258,21 @@
     <!-- PARTNERS END HERE -->
     <!-- SUBSCRIBE START HERE >>THIS SECTION FOR MUSHVIQ -->    
     <div id="subscribe">
-    	
+        <div class="container">
+            <div class="col-md-2 col-xs-12">
+                <img src="media/logo.png" class="img-responsive" alt="">
+            </div>   
+            <div id="subscribe-form" class="col-md-10 col-xs-12">
+                <form action="" method="post">
+                    <div class="input-group">
+                      <input type="email" name="subscriberEmail" class="form-control" placeholder="Yeniliklərimizdən dərhal xəbərdar olmaq üçün emailinizi daxil edin..." autocomplete="off" required>
+                      <span class="input-group-btn">
+                        <button type="submit" class="btn btn-primary" name="submitSubscribe" type="button">Subscribe <span class="glyphicon glyphicon-send"></span></button>
+                      </span>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
     <!-- SUBSCRIBE END HERE -->
     <!-- FOOTER START HERE >>THIS SECTION FOR MUSHVIQ -->  
