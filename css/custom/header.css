@@ -5,6 +5,7 @@
 	text-transform: uppercase;
 	border: none;
 	min-height: 60px;
+	margin-bottom: 0;
 }
 #header-nav .navbar-default img{
 	width: 180px;
