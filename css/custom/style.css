@@ -392,4 +392,78 @@
 	line-height: 55px;
 	float: left;
 }
-/*</ FOOTER BOTTOM SECTION STYLES>*/
+/*
+*	</ FOOTER BOTTOM SECTION STYLES>
+*** </FOOTER SECTION>
+*/
+
+/*--------------------------------*/
+
+/*
+* <TOP BANNER SECTION>
+*/
+
+.top-banner{
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.content-wrap{
+	padding-top: 20px;
+	font-family: 'DINPro';
+}
+.panel-body{
+	padding: 8px 10px 8px 0px;
+}
+#tools{
+	background-color: #EEE;	
+}
+
+#tools .form-group{
+	margin-bottom: 0;
+}
+
+.tour-item{
+	border:1px solid #eee;
+	padding: 0;
+	min-height: 185px;
+	margin-bottom:20px; 
+}
+.tour-item .list-item-img{
+	overflow: hidden;
+	height: 100%;
+	padding: 0;
+}
+.tour-item .list-item-img a img{
+	-webkit-transform: scale(1.2);
+    transform: scale(1);
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    display: block;
+}
+.tour-item .list-item-img a:hover img{
+	transform: scale(1.2);
+}
+.tour-item h3{
+	margin-top: 10px;
+	font-weight: bold;
+}
+.item-rating{
+	margin-top: 15px;
+}
+.item-price{
+	background-color: #eee;
+	min-height: 185px;
+	text-align: center;
+	padding-top: 30px;
+}
+.item-btn-more{
+	text-transform: uppercase;
+	font-size: 13px;
+}
+/*
+* </TOP BANNER SECTION>
+*/
