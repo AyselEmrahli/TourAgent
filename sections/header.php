@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="css/custom/header.css">
-
 <div class="container-fluid" id="header-nav">
   <div class="row">
     <nav class="navbar navbar-default">
