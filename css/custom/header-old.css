@@ -1,0 +1,24 @@
+#header-nav .navbar-default{
+	background-color: #0F3A6D;
+	border-radius: 0;
+	font-family: 'DINPro';
+	text-transform: uppercase;
+	border: none;
+	min-height: 60px;
+	margin-bottom: 0;
+}
+#header-nav .navbar-default img{
+	width: 180px;
+}
+#header-nav .navbar-default .btn{
+	margin-top: 12px;
+}
+#header-nav .navbar .nav li>a{
+	line-height: 30px;
+	color: #fff;
+	height: 60px;
+}
+#header-nav .navbar .nav li>a:hover{
+	color: #FFF;
+	border-bottom: 5px solid #347AB8;
+}
