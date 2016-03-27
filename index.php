@@ -45,7 +45,7 @@
                     <li><a href="#">Otellər</a></li>
                     <li><a href="#">Rent a Car</a></li>
                     <li><a href="#">Görməli Yerlər</a></li>
-                    <li><a href="#">Xəbərlər</a></li>
+                    <li><a href="news.php">Xəbərlər</a></li>
                   </ul>
                   <div class="nav navbar-right">
                       <a href="#" class="btn btn-sign-up">Qeydiyyat</a>
