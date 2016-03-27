@@ -3,15 +3,8 @@
 	background-color: #f9f9f9;
 	font-family:'DinPro';
 }
-.border {
-	
-	border-top:1px solid black;
-}
-
+/*left Section codes*/
 .col-md-3  {
-.row {
-	width:96%;
-}
 h3 {
 	font-weight:bold;
 	text-transform:uppercase;	
@@ -22,7 +15,6 @@ li {
 a:hover {
 	text-decoration:none;
 }
-
 .list-group-item {
 		background-color:#f9f9f9;
 		border: none;
@@ -31,8 +23,9 @@ a:hover {
 }
 
 
-
+/*right Section codes*/
 .col-md-8 {
+
 	background-color:#FFFFFF;
 	.jumbotron {
 		background-color:#FFFFFF;
@@ -50,7 +43,7 @@ a:hover {
 	}
 	img {
 		width: 100%;
-		height: 317px;
+		height: auto;
 	}
 	i {
 		color:#286090;

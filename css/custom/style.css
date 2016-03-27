@@ -495,11 +495,7 @@
   background-color: #f9f9f9;
   font-family: 'DinPro'; }
 
-.border {
-  border-top: 1px solid black; }
-
-.col-md-3 .row {
-  width: 96%; }
+/*left Section codes*/
 .col-md-3 h3 {
   font-weight: bold;
   text-transform: uppercase; }
@@ -512,6 +508,7 @@
   border: none;
   border-bottom: 2px solid #ddd; }
 
+/*right Section codes*/
 .col-md-8 {
   background-color: #FFFFFF; }
   .col-md-8 .jumbotron {
@@ -526,7 +523,7 @@
     color: #4F4F4F; }
   .col-md-8 img {
     width: 100%;
-    height: 317px; }
+    height: auto; }
   .col-md-8 i {
     color: #286090;
     padding-left: 14px; }
