@@ -49,7 +49,7 @@
                   </ul>
                   <div class="nav navbar-right">
                       <a href="#" class="btn btn-sign-up">Qeydiyyat</a>
-                      <a href="#" class="btn btn-sign-in">Giriş</a>
+                      <a href="profile.php" class="btn btn-sign-in">Giriş</a>
                   </div>
                 </div><!-- /.navbar-collapse -->
               </div><!-- /.container-fluid -->
