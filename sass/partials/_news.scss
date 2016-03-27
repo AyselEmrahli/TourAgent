@@ -2,8 +2,8 @@
 #news-wrap{
 	background-color: #f9f9f9;
 	font-family:'DinPro';
-}
-/*left Section codes*/
+
+	/*left Section codes*/
 .col-md-3  {
 h3 {
 	font-weight:bold;
@@ -12,6 +12,7 @@ h3 {
 li {
 	list-style-type:none;
 }
+
 a:hover {
 	text-decoration:none;
 }
@@ -43,7 +44,6 @@ a:hover {
 	}
 	img {
 		width: 100%;
-		height: auto;
 	}
 	i {
 		color:#286090;
@@ -52,4 +52,6 @@ a:hover {
 
 
 }
+}
+
 

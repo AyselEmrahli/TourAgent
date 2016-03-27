@@ -37,7 +37,7 @@
 	<div class="jumbotron">
 		<div class="row">
 			<div class="row">
-				<img src="media/tour3.jpg">
+				<img src="media/tour3.jpg"  class="img-responsive">
 			</div>
 			<div class="row">
 				<hr>
@@ -62,9 +62,6 @@
 			</div>
 		</div>
 			
-
-
-
 
 			<div class="row">
 				<div class="row">
