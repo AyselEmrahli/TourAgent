@@ -509,22 +509,22 @@
   border-bottom: 2px solid #ddd; }
 
 /*right Section codes*/
-.col-md-8 {
+.col-md-9 {
   background-color: #FFFFFF; }
-  .col-md-8 .jumbotron {
+  .col-md-9 .jumbotron {
     background-color: #FFFFFF;
     margin-bottom: -60px; }
-  .col-md-8 h2 {
+  .col-md-9 h2 {
     font-weight: bold; }
-  .col-md-8 p {
+  .col-md-9 p {
     font-size: 16px;
     color: #4F4F4F; }
-  .col-md-8 a {
+  .col-md-9 a {
     color: #4F4F4F; }
-  .col-md-8 img {
+  .col-md-9 img {
     width: 100%;
     height: auto; }
-  .col-md-8 i {
+  .col-md-9 i {
     color: #286090;
     padding-left: 14px; }
 
