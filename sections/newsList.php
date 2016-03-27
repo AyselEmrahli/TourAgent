@@ -42,10 +42,10 @@
 			<div class="row">
 				<hr>
  				<i class="fa fa-calendar"></i>
- 				<a href="#">12 Mart 2016</a>
+ 				<spam>12 Mart 2016</spam>
 
  				<i class="fa fa-tags"></i>
- 				<a href="#">Dünya Xəbərləri</a>
+ 				<spam>Dünya Xəbərləri</spam>
 				<hr>
 			</div>
 
@@ -62,7 +62,7 @@
 			</div>
 		</div>
 			
-
+			
 			<div class="row">
 				<div class="row">
 				<hr>
@@ -73,10 +73,10 @@
 				<div class="row">
 				<hr>
  				<i class="fa fa-calendar"></i>
- 				<a href="#">12 Mart 2016</a>
+ 				<spam>12 Mart 2016</spam>
 
  				<i class="fa fa-tags"></i>
- 				<a href="#">Dünya Xəbərləri</a>
+ 				<spam>Dünya Xəbərləri</spam>
  				<hr>
 				</div>
 
@@ -90,10 +90,11 @@
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat</p>
 					<button type="button" class="btn btn-primary">Ətraflı</button>
+					</div>
 				</div>
-			</div>
 		
-	</div>
+
+	
 	</div>
 		<!-- Right Section code end -->
 	</div>

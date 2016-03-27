@@ -2,6 +2,7 @@
 #news-wrap{
 	background-color: #f9f9f9;
 	font-family:'DinPro';
+	padding:0px;
 
 	/*left Section codes*/
 .col-md-3  {
@@ -16,25 +17,26 @@ li {
 a{
 	padding-left:0px;
 }
-
-a:hover {
+a {
+	&:hover {
 	text-decoration:none;
+}
 }
 .list-group-item {
 		background-color:#f9f9f9;
 		border: none;
 		border-bottom:2px solid #ddd;
-	}
+
+
 }
 
 
 /*right Section codes*/
 .col-md-9 {
-
+	border:1px solid #ddd;
 	background-color:#FFFFFF;
 	.jumbotron {
 		background-color:#FFFFFF;
-		margin-bottom:-60px;
 	}
 	h2 {
 		font-weight: bold;
@@ -43,7 +45,7 @@ a:hover {
 		font-size: 16px;
 		color:#4F4F4F;
 	}
-	a {
+	spam {
 		color:#4F4F4F;
 	}
 	img {
@@ -53,7 +55,7 @@ a:hover {
 		color:#286090;
 		padding-left: 14px;
 	}
-
+	
 
 }
 }
