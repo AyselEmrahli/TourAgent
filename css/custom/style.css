@@ -1,68 +1,532 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'PFSquare';
+  src: url("../../fonts/custom/PFS-Regular.eot");
+  src: local("☺"), url("../../fonts/custom/PFS-Regular.woff") format("woff"), url("../../fonts/custom/PFS-Regular.ttf") format("truetype"), url("../../fonts/custom/PFS-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'PFSquare-Light';
+  src: url("../../fonts/custom/PFSquareSansPro-Light.eot");
+  src: local("☺"), url("../../fonts/custom/PFSquareSansPro-Light.woff") format("woff"), url("../../fonts/custom/PFSquareSansPro-Light.ttf") format("truetype"), url("../../fonts/custom/PFSquareSansPro-Light.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'PFSquare-Thin';
+  src: url("../../fonts/custom/PFSquareSansPro-Thin.eot");
+  src: local("☺"), url("../../fonts/custom/PFSquareSansPro-Thin.woff") format("woff"), url("../../fonts/custom/PFSquareSansPro-Thin.ttf") format("truetype"), url("../../fonts/custom/PFSquareSansPro-Thin.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'DINPro';
+  src: url("../../fonts/custom/DINPro-Regular.eot");
+  src: local("☺"), url("../../fonts/custom/DINPro-Regular.woff") format("woff"), url("../../fonts/custom/DINPro-Regular.ttf") format("truetype"), url("../../fonts/custom/DINPro-Regular.svg") format("svg"); }
+/*--------------------------------------------*/
 /*
-Error: Invalid CSS after "}": expected "}", was ""
-        on line 64 of sass/partials/_news.scss
-        from line 4 of sass/style.scss
-
-59: 
-60: }
-61: }
-
-Backtrace:
-sass/partials/_news.scss:64
-sass/style.scss:4
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1179:in `expected'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1115:in `expected'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1110:in `tok!'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:656:in `block'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:647:in `ruleset'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:673:in `block_child'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:663:in `block_contents'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:123:in `stylesheet'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:39:in `parse'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/engine.rb:403:in `_to_tree'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/engine.rb:309:in `to_tree'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:324:in `block in visit_import'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:88:in `block in with_import'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:88:in `with_import'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:323:in `visit_import'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:157:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:8:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/engine.rb:378:in `_render_with_sourcemap'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/engine.rb:295:in `render_with_sourcemap'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:293:in `watch'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/plugin.rb:109:in `method_missing'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:383:in `watch_or_update'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:51:in `process_result'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/exec/base.rb:52:in `parse'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/exec/base.rb:19:in `parse!'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/bin/sass:13:in `<top (required)>'
-C:/Ruby22-x64/bin/sass:23:in `load'
-C:/Ruby22-x64/bin/sass:23:in `<main>'
+* 	<COMMON SELECTORS>
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 64 of sass/partials/_news.scss\A         from line 4 of sass/style.scss\A \A 59: \A 60: }\A 61: }"; }
-}
+.section-title {
+  text-align: center;
+  font-family: 'DINPro';
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #0277BD;
+  /*font-size: 3vmax;*/
+  margin-bottom: 0; }
+
+.section-icon {
+  width: 86px;
+  margin: 0 auto;
+  display: block;
+  opacity: .7; }
+
+.section-desc {
+  text-align: center;
+  font-family: 'DINPro';
+  text-transform: uppercase;
+  font-size: 3vmin; }
+
+.seperator {
+  clear: both;
+  max-width: 1024px;
+  margin: 35px auto; }
+
+.seperator img {
+  width: 100%;
+  margin: 0 auto;
+  display: block; }
+
+.btn-sign-in {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  width: 70px;
+  transition: all .5s ease; }
+
+.btn-sign-up {
+  background: transparent;
+  border: none;
+  color: #fff;
+  transition: all .5s ease; }
+
+.btn-start {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  line-height: 35px;
+  font-size: 16px;
+  transition: all .5s ease; }
+
+.btn-language {
+  margin-top: 12px;
+  background: transparent;
+  border-color: #2f6ca2;
+  color: #fff;
+  transition: all .5s ease; }
+
+.btn-sign-up:hover, .btn-sign-in:hover, .btn-start:hover, .btn-language:hover {
+  background: #fff;
+  color: #000; }
+
+.path-wrap {
+  background-color: whitesmoke;
+  font-family: 'DINPro';
+  text-transform: uppercase;
+  font-size: 12px; }
+
+.path-wrap .breadcrumb {
+  margin: 0; }
+
+.path-wrap .breadcrumb a {
+  text-decoration: none; }
+
+.path-wrap .breadcrumb > li + li:before {
+  content: "\203A ";
+  color: #333;
+  padding: 0 5px; }
+
+.hr-seperate {
+  width: 220px;
+  display: block;
+  margin: 10px auto; }
+
+.company-name {
+  font-size: 14px; }
+
+.company-name a {
+  text-decoration: none;
+  color: #999; }
+
+.company-name a:hover {
+  color: #777; }
+
+.tour-type {
+  position: absolute;
+  bottom: 5px;
+  color: #f4f4f4;
+  left: 10px;
+  font-size: 11px; }
+
+/*
+* 	</ COMMON SELECTORS>
+*/
+/*--------------------------------------------*/
+/*
+*  <TOP SECTION STYLES>
+*/
+#top {
+  min-height: 650px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'DINPro';
+  text-transform: uppercase; }
+
+#top .navbar, #top .navbar-header {
+  min-height: 135px;
+  border: none;
+  border-radius: 0; }
+
+#top .navbar-default {
+  background: none; }
+
+#top .navbar-brand img {
+  width: 135px; }
+
+#top .nav {
+  margin-top: 35px; }
+
+#top .navbar-nav > li a {
+  color: #fff; }
+
+#top .navbar-toggle {
+  margin-top: 35px; }
+
+#top .slider-wrap {
+  margin-top: 130px; }
+
+#top .slider-wrap #topCarousel {
+  text-align: center;
+  padding-bottom: 60px; }
+
+#topCarousel h1 {
+  font-weight: bold;
+  color: #fff; }
+
+#topCarousel p {
+  color: #fff;
+  font-size: 16px;
+  max-width: 430px;
+  margin: 30px auto; }
+
+#topCarousel .carousel-indicators {
+  bottom: 0; }
+
+/*
+*  </TOP SECTION STYLES>
+*/
+/*--------------------------------------------*/
+/*
+*  <POPULAR PLACES STYLES>
+*/
+#popular-places {
+  background: #F5F5F5;
+  height: auto;
+  padding-bottom: 25px; }
+
+#popular-places .places-wrap > .row > div {
+  padding: 0; }
+
+.places-wrap {
+  margin-top: 15px; }
+
+.places-wrap .thumbnail {
+  border: none;
+  background: none;
+  margin-bottom: 0; }
+
+.places-wrap .thumbnail > img {
+  border-radius: 3px;
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+  transition: all 1s ease; }
+
+.places-wrap .thumbnail > img:hover {
+  -webkit-filter: brightness(100%);
+  filter: brightness(100%); }
+
+/*
+*  </ POPULAR PLACES STYLES>
+*/
+/*--------------------------------------------*/
+/*
+*  <ADVANTAGES SECTION STYLES>
+*/
+#advantages {
+  padding-bottom: 40px; }
+
+#advantages h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'DINPro';
+  padding-top: 30px;
+  font-weight: bold; }
+
+#advantages p {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'DINPro';
+  padding: 35px 50px; }
+
+#advantages .btn {
+  margin: 0 auto;
+  display: block;
+  width: 120px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'DINPro';
+  border: 1px solid #ffbd26;
+  color: #056997;
+  font-size: 16px;
+  transition: all .5s ease; }
+
+#advantages .btn:hover {
+  background: #ffbd26;
+  color: #fff; }
+
+.local-places-title {
+  width: 100%;
+  display: block;
+  font-family: 'PFSquare';
+  padding: 5px 20px;
+  font-size: 19px; }
+
+/*
+*  </ ADVANTAGES SECTION STYLES>
+*/
+/*--------------------------------------*/
+/*
+*  <PARTNERS SECTION STYLES>
+*/
+#partners {
+  min-height: 242px;
+  background-color: #EEE; }
+
+#partners #partnersCarousel {
+  margin: 30px 0px; }
+
+#partners #partnersCarousel img {
+  margin-bottom: 10px; }
+
+/*
+*  <PARTNERS SECTION STYLES>
+*/
+/*--------------------------------------*/
+/*
+*  <SUBSCRIBE SECTION STYLES>
+*/
+#subscribe {
+  min-height: 170px;
+  background-color: #0F3A6D;
+  font-family: 'PFSquare-Light';
+  padding-top: 30px; }
+
+#subscribe #subscribe-form {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+#subscribe input[name="subscriberEmail"] {
+  height: 50px;
+  background-color: #2668B6;
+  border: none;
+  color: #fff;
+  font-size: 16px; }
+
+#subscribe button[name="submitSubscribe"] {
+  height: 50px;
+  border: none;
+  font-size: 16px; }
+
+#subscribe input:focus {
+  outline: none;
+  box-shadow: none; }
+
+#subscribe ::-webkit-input-placeholder {
+  color: #cacdc6; }
+
+#subscribe :-moz-placeholder {
+  /* Firefox 18- */
+  color: #cacdc6; }
+
+#subscribe ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #cacdc6; }
+
+#subscribe :-ms-input-placeholder {
+  color: #cacdc6; }
+
+/*
+*  </ SUBSCRIBE SECTION STYLES>
+*/
+/*----------------------------------------*/
+/*
+*** <FOOTER SECTION>
+*  <FOOTER MENU SECTION STYLES>
+*/
+#footer #footer-menu {
+  min-height: 210px;
+  background-color: #1D4F8A;
+  font-family: 'DINPro';
+  padding-top: 20px; }
+
+#footer-menu .footer-caption {
+  font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 10px; }
+
+#footer-menu ul {
+  padding: 0; }
+
+#footer-menu ul > li {
+  list-style: none;
+  color: #fff;
+  text-transform: uppercase; }
+
+#footer-menu ul > li a {
+  color: #cdcbcc; }
+
+#footer-menu .apps {
+  width: 150px;
+  margin-bottom: 5px;
+  float: right;
+  opacity: .5;
+  transition: all 1s ease; }
+
+#footer-menu .apps:hover {
+  opacity: 1; }
+
+/*</ FOOTER MENU SECTION STYLES>*/
+/*<FOOTER BOTTOM SECTION STYLES>*/
+#footer-bottom {
+  min-height: 55px;
+  background-color: #347AB8;
+  color: #fff;
+  font-family: 'DINPro'; }
+
+#footer-bottom .copyright {
+  line-height: 55px;
+  float: left; }
+
+/*
+*	</ FOOTER BOTTOM SECTION STYLES>
+*** </FOOTER SECTION>
+*/
+/*--------------------------------*/
+/*
+* <TOP BANNER SECTION>
+*/
+.top-banner {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+/*
+* </ TOP BANNER SECTION>
+*/
+/*---------------------------------*/
+/*
+* < TOURS AND HOTELS ITEMS CONTENT SECTION>
+*/
+.content-wrap {
+  padding-top: 20px;
+  font-family: 'DINPro'; }
+
+.panel-body {
+  padding: 8px 10px 8px 0px; }
+
+#tools {
+  background-color: #EEE; }
+
+#tools .form-group {
+  margin-bottom: 0; }
+
+.post-item {
+  border: 1px solid #eee;
+  padding: 0;
+  min-height: 185px;
+  margin-bottom: 20px; }
+
+.post-item .list-item-img {
+  overflow: hidden;
+  height: 100%;
+  padding: 0; }
+
+.post-item .list-item-img a img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1);
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  display: block;
+  -webkit-filter: brightness(70%);
+  filter: brightness(70%); }
+
+.post-item .list-item-img a:hover img {
+  transform: scale(1.2);
+  -webkit-filter: brightness(100%);
+  filter: brightness(100%); }
+
+.post-item h3 {
+  margin-top: 10px;
+  font-weight: bold; }
+
+.item-rating {
+  margin-top: 15px; }
+
+.item-price {
+  background-color: #eee;
+  min-height: 185px;
+  text-align: center;
+  padding-top: 30px; }
+
+.item-btn-more {
+  text-transform: uppercase;
+  font-size: 13px; }
+
+/*FILTER PANEL*/
+.panel-link {
+  text-decoration: none !important;
+  text-transform: uppercase;
+  font-size: 14px; }
+
+/*</FILTER PANEL>*/
+/*
+* < TOURS AND HOTELS ITEMS CONTENT SECTION>
+*/
+/*------------------------------------------*/
+#header-nav .navbar-default {
+  background-color: #0F3A6D;
+  border-radius: 0;
+  font-family: 'DINPro';
+  text-transform: uppercase;
+  border: none;
+  min-height: 60px;
+  margin-bottom: 0; }
+  #header-nav .navbar-default img {
+    width: 180px; }
+  #header-nav .navbar-default .btn {
+    margin-top: 12px; }
+#header-nav .navbar .nav li a {
+  line-height: 30px;
+  color: #fff;
+  height: 60px; }
+  #header-nav .navbar .nav li a:hover {
+    color: #FFF;
+    border-bottom: 5px solid #347AB8; }
+
+#news-wrap {
+  background-color: #f9f9f9;
+  font-family: 'DinPro';
+  padding: 0px;
+  /*left Section codes*/
+  /*right Section codes*/ }
+  #news-wrap .col-md-3 h3 {
+    font-weight: bold;
+    text-transform: uppercase; }
+  #news-wrap .col-md-3 li {
+    list-style-type: none;
+    padding-left: 0px; }
+  #news-wrap .col-md-3 a {
+    padding-left: 0px; }
+  #news-wrap .col-md-3 a:hover {
+    text-decoration: none; }
+  #news-wrap .col-md-3 .list-group-item {
+    background-color: #f9f9f9;
+    border: none;
+    border-bottom: 2px solid #ddd; }
+  #news-wrap .col-md-9 {
+    border: 1px solid #ddd;
+    background-color: #FFFFFF; }
+    #news-wrap .col-md-9 .jumbotron {
+      background-color: #FFFFFF; }
+    #news-wrap .col-md-9 h2 {
+      font-weight: bold; }
+    #news-wrap .col-md-9 p {
+      font-size: 16px;
+      color: #4F4F4F; }
+    #news-wrap .col-md-9 span {
+      color: #4F4F4F; }
+    #news-wrap .col-md-9 img {
+      width: 100%; }
+    #news-wrap .col-md-9 i {
+      color: #286090;
+      padding-left: 14px; }
+
+/*# sourceMappingURL=style.css.map */
