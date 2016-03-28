@@ -5,8 +5,6 @@
 
 		<!-- Left Side Bar codes start -->
 		<div class="col-md-3 left-side-bar">
-			<div class="col-md-11">
-			<div class="row">
 				<h3>Kateqoriyalar</h3>
 					<div class="list-group">
 						<a href="#" class="list-group-item">Azərbaycan</a>
@@ -15,8 +13,8 @@
   						<a href="#" class="list-group-item">Bilirsinizmi?</a>
   						<a href="#" class="list-group-item">Maraqlıdır</a>
 					</div>
-			</div>
-			<div class="row">
+
+					<hr>
 				<h3>Ən çox oxunanlar</h3>
 				<div class="list-group">
   						<li class="list-group-item"><a href="#">Lorem ipsum dolor sit amet-2</a></li>
@@ -26,8 +24,6 @@
   						<li class="list-group-item"><a href="#">Lorem ipsum dolor sit amet</a></li>
   						<li class="list-group-item"><a href="#">Lorem ipsum dolor sit amet</a></li>
 					</div>
-				</div>
-		</div>	
 		</div>
 		<!-- Left Side Bar codes end-->
 
@@ -35,7 +31,6 @@
 		<!-- news List Wrap codes start -->
 	<div class="col-md-9 news-list-wrap">
 	<div class="jumbotron">
-		<div class="row">
 			<div class="row">
 				<img src="media/tour3.jpg"  class="img-responsive">
 			</div>
@@ -60,10 +55,8 @@
 					consequat</p>
 				<button type="button" class="btn btn-primary">Ətraflı</button>
 			</div>
-		</div>
 			
 			
-			<div class="row">
 				<div class="row">
 				<hr>
  				<img src="media/tour3.jpg">
@@ -91,7 +84,6 @@
 					consequat</p>
 					<button type="button" class="btn btn-primary">Ətraflı</button>
 					</div>
-				</div>
 		
 
 	

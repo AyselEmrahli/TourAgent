@@ -27,8 +27,13 @@ a {
 		border: none;
 		border-bottom:2px solid #ddd;
 
+	&:last-child {
+		border:none;
+	}
 
 }
+ 
+
 }
 /*news List Wrap codes*/
 .news-list-wrap {
@@ -36,6 +41,7 @@ a {
 	background-color:#FFFFFF;
 	.jumbotron {
 		background-color:#FFFFFF;
+		padding:30px;
 	}
 	h2 {
 		font-weight: bold;

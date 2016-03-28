@@ -511,11 +511,14 @@
     background-color: #f9f9f9;
     border: none;
     border-bottom: 2px solid #ddd; }
+    #news-wrap .left-side-bar .list-group-item:last-child {
+      border: none; }
   #news-wrap .news-list-wrap {
     border: 1px solid #ddd;
     background-color: #FFFFFF; }
     #news-wrap .news-list-wrap .jumbotron {
-      background-color: #FFFFFF; }
+      background-color: #FFFFFF;
+      padding: 30px; }
     #news-wrap .news-list-wrap h2 {
       font-weight: bold; }
     #news-wrap .news-list-wrap p {
