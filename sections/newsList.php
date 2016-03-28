@@ -3,8 +3,8 @@
 	<div class="container">
 		<!-- News list code here -->
 
-		<!-- Left Section code start -->
-		<div class="col-md-3">
+		<!-- Left Side Bar codes start -->
+		<div class="col-md-3 left-side-bar">
 			<div class="col-md-11">
 			<div class="row">
 				<h3>Kateqoriyalar</h3>
@@ -29,11 +29,11 @@
 				</div>
 		</div>	
 		</div>
-		<!-- Left Section code end-->
+		<!-- Left Side Bar codes end-->
 
 
-		<!-- Right Section code start -->
-	<div class="col-md-9">
+		<!-- news List Wrap codes start -->
+	<div class="col-md-9 news-list-wrap">
 	<div class="jumbotron">
 		<div class="row">
 			<div class="row">
@@ -96,7 +96,7 @@
 
 	
 	</div>
-		<!-- Right Section code end -->
+		<!-- news List Wrap codes end -->
 	</div>
 
 </div>
