@@ -42,10 +42,10 @@
 			<div class="row">
 				<hr>
  				<i class="fa fa-calendar"></i>
- 				<spam>12 Mart 2016</spam>
+ 				<span>12 Mart 2016</span>
 
  				<i class="fa fa-tags"></i>
- 				<spam>Dünya Xəbərləri</spam>
+ 				<span>Dünya Xəbərləri</span>
 				<hr>
 			</div>
 
@@ -73,10 +73,10 @@
 				<div class="row">
 				<hr>
  				<i class="fa fa-calendar"></i>
- 				<spam>12 Mart 2016</spam>
+ 				<span>12 Mart 2016</span>
 
  				<i class="fa fa-tags"></i>
- 				<spam>Dünya Xəbərləri</spam>
+ 				<span>Dünya Xəbərləri</span>
  				<hr>
 				</div>
 
