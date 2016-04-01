@@ -554,4 +554,82 @@
     font-weight: bold;
     color: #373737; }
 
+#singletour-wrap {
+  font-family: 'DINPro'; }
+  #singletour-wrap #top-banner {
+    height: 158px;
+    position: relative; }
+    #singletour-wrap #top-banner .banner-img {
+      height: 158px;
+      object-fit: cover;
+      object-position: center;
+      width: 100%; }
+    #singletour-wrap #top-banner #tourinfo {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      color: #fff; }
+      #singletour-wrap #top-banner #tourinfo .container {
+        position: relative;
+        height: 100%; }
+        #singletour-wrap #top-banner #tourinfo .container #tourname {
+          width: 100%;
+          position: absolute;
+          bottom: 10px;
+          font-size: 4em;
+          font-weight: bold; }
+          #singletour-wrap #top-banner #tourinfo .container #tourname p {
+            width: 100%;
+            margin: 0; }
+            #singletour-wrap #top-banner #tourinfo .container #tourname p span#price {
+              float: right; }
+            #singletour-wrap #top-banner #tourinfo .container #tourname p span small {
+              font-size: 15px;
+              font-weight: normal; }
+          #singletour-wrap #top-banner #tourinfo .container #tourname .rating {
+            font-size: 0.4em; }
+  #singletour-wrap #content-wrap .page-header.panel-default {
+    border-radius: 0px;
+    border-color: #f5f5f5; }
+    #singletour-wrap #content-wrap .page-header.panel-default .panel-heading {
+      border-color: #f5f5f5; }
+    #singletour-wrap #content-wrap .page-header.panel-default input[type=number] {
+      text-align: centerl; }
+      #singletour-wrap #content-wrap .page-header.panel-default input[type=number]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        margin: 0; }
+  #singletour-wrap #content-wrap .page-header h1 {
+    font-size: 23px; }
+  #singletour-wrap #content-wrap .page-header .panel-title {
+    font-size: 22px;
+    font-weight: bold; }
+  #singletour-wrap #content-wrap .tour-feat span {
+    display: block;
+    text-align: center;
+    color: gray;
+    padding: 10px 0px; }
+  #singletour-wrap #content-wrap .tour-feat p {
+    text-align: center; }
+  #singletour-wrap #content-wrap .panel-body {
+    padding: 20px; }
+    #singletour-wrap #content-wrap .panel-body .table tbody tr {
+      font-size: 15px; }
+      #singletour-wrap #content-wrap .panel-body .table tbody tr:first-child td {
+        border-top: 0px; }
+    #singletour-wrap #content-wrap .panel-body a.btn:nth-child(2) {
+      margin-left: 5px; }
+  #singletour-wrap #content-wrap .tour-note .page-header {
+    margin-top: 0px; }
+    #singletour-wrap #content-wrap .tour-note .page-header h1 {
+      margin-top: 0px; }
+  #singletour-wrap #content-wrap .tour-note .list-group p {
+    font-size: 16px; }
+    #singletour-wrap #content-wrap .tour-note .list-group p .fa-check {
+      color: #006C7D; }
+    #singletour-wrap #content-wrap .tour-note .list-group p .fa-exclamation-triangle {
+      color: red; }
+
 /*# sourceMappingURL=style.css.map */
