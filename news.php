@@ -24,7 +24,7 @@
   <body>
     <?php 
       include 'sections/header.php';
-      include 'sections/newsList.php';
+      include 'sections/singleNews.php';
     ?>
   	
   	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

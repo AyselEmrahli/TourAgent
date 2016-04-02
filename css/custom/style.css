@@ -533,6 +533,8 @@
     #news-wrap .news-list-wrap .news-item p {
       font-size: 16px;
       color: #4F4F4F; }
+    #news-wrap .news-list-wrap .suggested-news-items p {
+      font-size: 13px; }
 
 #profile-wrap {
   padding-top: 25px;
