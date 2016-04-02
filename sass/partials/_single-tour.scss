@@ -131,5 +131,14 @@
 				}
 			}
 		}
+
+		#booking-wrap{
+			input[type=number]{
+				text-align: center;
+			}
+			.btn-block{
+				border-radius:0;
+			}
+		}
 	}
 }
