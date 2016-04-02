@@ -153,7 +153,7 @@
                     <div class="col-md-6 col-xs-12">
                         <span class="local-places-title">Azerbaijan</span>
                         <div class="col-xs-6 col-md-4">
-                            <a href="#" class="thumbnail">
+                            <a href="place.php" class="thumbnail">
                                 <img src="media/place1.jpg" alt="Baku">
                             </a>
                         </div>
