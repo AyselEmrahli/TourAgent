@@ -633,5 +633,9 @@
       color: #006C7D; }
     #singletour-wrap #content-wrap .tour-note .list-group p .fa-exclamation-triangle {
       color: red; }
+  #singletour-wrap #content-wrap #booking-wrap input[type=number] {
+    text-align: center; }
+  #singletour-wrap #content-wrap #booking-wrap .btn-block {
+    border-radius: 0; }
 
 /*# sourceMappingURL=style.css.map */
