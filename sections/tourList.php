@@ -186,7 +186,7 @@
 					<h3>230 <i class="fa fa-euro"></i></h3>
 					<!-- <small>* bir nəfər</small> -->
 					<br>
-					<a href="#" class="btn btn-primary item-btn-more">Ətraflı</a>
+					<a href="?tour_id=" class="btn btn-primary item-btn-more">Ətraflı</a>
 				</div>
 			</div>
 			<!-- ITEM 2 -->
