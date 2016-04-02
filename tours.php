@@ -24,7 +24,12 @@
   <body>
     <?php 
       include 'sections/header.php';
-      include 'sections/tourList.php';
+      if(isset($_GET['tour_id'])){
+        include 'sections/singleTour.php';
+      }else{
+        include 'sections/tourList.php';
+      }
+      
     ?>
   	
   	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -33,3 +38,21 @@
     <script src="js/bootstrap.min.js"></script>
   </body>
   </html>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('.inc-count').on('click',function(){
+      $count = $(this).parents('.input-group').children('#count').val();
+      $count++;
+      $(this).parents('.input-group').children('#count').val($count);
+    });
+    $('.dec-count').on('click',function(){
+      
+      if($(this).parents('.input-group').children('#count').val()>0){
+        $count = $(this).parents('.input-group').children('#count').val();
+        $count--;
+        $(this).parents('.input-group').children('#count').val($count);
+      }
+      
+    });
+  });
+</script>
