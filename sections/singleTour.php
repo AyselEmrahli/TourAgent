@@ -134,35 +134,20 @@
             <div class="panel-heading">
               <h3 class="panel-title">Reservasiya</h3>
             </div>
-            <div class="panel-body">
-              <div class="col-md-12">
-                <label>Böyüklər</label>
-                <div class="col-md-6 pull-right">
+            <div class="panel-body">               
+              <div class="row">
+                <div class="col-lg-12">
                   <div class="input-group">
                     <span class="input-group-btn">
-                      <button class="btn btn-default" type="button">-</button>
+                      <button class="btn btn-default" type="button">Go!</button>
                     </span>
-                    <input type="number" class="form-control" min="1">
+                    <input type="number" class="form-control" >
                     <span class="input-group-btn">
-                      <button class="btn btn-default" type="button">+</button>
+                      <button class="btn btn-default" type="button">Go!</button>
                     </span>
-                  </div><!-- /input-group -->
-                </div><!-- /.col-lg-6 -->
-              </div>
-              <div class="col-md-12">
-                <label>Böyüklər</label>
-                <div class="col-md-6 pull-right">
-                  <div class="input-group">
-                    <span class="input-group-btn">
-                      <button class="btn btn-default" type="button">-</button>
-                    </span>
-                    <input type="number" class="form-control" min="1">
-                    <span class="input-group-btn">
-                      <button class="btn btn-default" type="button">+</button>
-                    </span>
-                  </div><!-- /input-group -->
-                </div><!-- /.col-lg-6 -->
-              </div>
+                  </div>
+                </div>
+                </div>            
             </div>
           </div>
         </div>
