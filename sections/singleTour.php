@@ -113,11 +113,11 @@
           <div class="row">
             <div class="col-md-6">
               <label>Böyüklər</label>
-              <div class="input-group">
+              <div class="input-group" data-target="adult-count">
                 <span class="input-group-btn">
                   <button class="dec-count btn btn-default" type="button"><i class="fa fa-minus"></i></button>
                 </span>
-                <input type="number" id="count" value="1" min="1" class="form-control" >
+                <input type="number" value="1" min="1" class="form-control" >
                 <span class="input-group-btn">
                   <button class="inc-count btn btn-default" type="button"><i class="fa fa-plus"></i></button>
                 </span>
@@ -125,11 +125,11 @@
             </div>
             <div class="col-md-6">
               <label>Uşaqlar</label>
-              <div class="input-group">
+              <div class="input-group" data-target="child-count">
                 <span class="input-group-btn">
                   <button class="dec-count btn btn-default" type="button"><i class="fa fa-minus"></i></button>
                 </span>
-                <input type="number" id="count" value="0" min="0" class="form-control" >
+                <input type="number" value="0" min="0" class="form-control" >
                 <span class="input-group-btn">
                   <button class="inc-count btn btn-default" type="button"><i class="fa fa-plus"></i></button>
                 </span>
@@ -151,7 +151,7 @@
               <td id="result">1</td>
             </tr>
             <tr>
-              <td>Ümumi məbləğ</td>
+              <td id="property-total">Ümumi məbləğ</td>
               <td id="total-price">1</td>
             </tr>
           </table>  

@@ -19,7 +19,7 @@
             <li><a href="#">Agentliklər</a></li>
             <li><a href="#">Otellər</a></li>
             <li><a href="#">Rent a Car</a></li>
-            <li><a href="#">Görməli Yerlər</a></li>
+            <li><a href="index.php#popular-places">Görməli Yerlər</a></li>
             <li><a href="#">Xəbərlər</a></li>
           </ul>
           <div class="nav navbar-right">
