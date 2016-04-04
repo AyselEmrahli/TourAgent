@@ -39,18 +39,45 @@
   </body>
   </html>
   <script type="text/javascript">
+    
   $(document).ready(function(){
-    $('.inc-count').on('click',function(){
-      $count = $(this).parents('.input-group').children('#count').val();
+    $childCount = 0;
+    $adultCount = 1;
+    $result = 0;
+    $adultPrice = 230;
+    $childPrice = 200;
+    $totalPrice = $adultCount*$adultPrice + $childCount*$childPrice;
+    $('#total-price').text($totalPrice);
+    $('.inc-count').on('click',function(){ 
+
+      $count = $(this).parents('.input-group').children('input').val();
       $count++;
-      $(this).parents('.input-group').children('#count').val($count);
+      $(this).parents('.input-group').children('input').val($count);
+      $target = '#' + $(this).parents('.input-group').attr('data-target');
+      $($target).text($count);
+      if($target == "#adult-count"){
+        $adultCount = $count;
+      }else{
+        $childCount = $count;
+      }      
+      $totalPrice = $adultCount*$adultPrice + $childCount*$childPrice;
+      $('#total-price').text($totalPrice);
     });
     $('.dec-count').on('click',function(){
       
-      if($(this).parents('.input-group').children('#count').val()>0){
-        $count = $(this).parents('.input-group').children('#count').val();
+      if($(this).parents('.input-group').children('input').val()>0){
+        $count = $(this).parents('.input-group').children('input').val();
         $count--;
-        $(this).parents('.input-group').children('#count').val($count);
+        $(this).parents('.input-group').children('input').val($count);
+        $target = '#' + $(this).parents('.input-group').attr('data-target');
+        $($target).text($count);
+        if($target == "#adult-count"){
+          $adultCount = $count;
+        }else{
+          $childCount = $count;
+        }      
+        $totalPrice = $adultCount*$adultPrice + $childCount*$childPrice;
+        $('#total-price').text($totalPrice);
       }
       
     });
