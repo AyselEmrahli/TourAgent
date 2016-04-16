@@ -23,17 +23,21 @@ Route::get('admin/addnews',function(){
     return view('admin.addNews');
 });
 
+
+
 Route::get('admin/addagency',function(){
     return view('admin.addAgency');
 });
+
 
 Route::get('admin/tours',function(){
     return view('admin.tours');
 });
 
-Route::get('admin/agencies',function(){
-    return view('admin.agencies');
-});
+Route::get('admin/agencies','AgencyController@showAgencies');
+Route::post('admin/agencies','AgencyController@store');
+
+
 
 Route::get('admin/news',function(){
     return view('admin.news');
