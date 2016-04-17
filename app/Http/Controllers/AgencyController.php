@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Agency;
 use App\Http\Requests;
 use DB;
-use \Input as Input;
+use Illuminate\Support\Facades\Input;
 class AgencyController extends Controller
 {
 	 public function showAgencies()
@@ -21,9 +21,16 @@ class AgencyController extends Controller
 	public function store(Request $request) 
 	{
 
+
+		if (Input::file('agency_logo')->isValid()) {
+			$destinationPath = 'uploads'; // upload path
+			$extension = Input::file('agency_logo')->getClientOriginalExtension(); // getting image extension
+			$fileName = rand().'.'. $extension; // renameing image
+			Input::file('agency_logo')->move($destinationPath, $fileName);
+		}
 		$agen=new Agency;
 		$agen->name=$request->agency_name;
-		$agen->img=$request->agency_logo;
+		$agen->img=$fileName;
 		$agen->address=$request->agency_address;
 		$agen->email=$request->agency_email;
 		$agen->website=$request->agency_website;
