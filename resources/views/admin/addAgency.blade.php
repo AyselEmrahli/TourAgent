@@ -4,7 +4,7 @@
   Add new Agency
 @stop
 @section('content')
-  {!! Form::open(['url'=>'admin/agencies'])!!}
+  {!! Form::open(['url'=>'admin/agencies','files' => true])!!}
 
     <div class="form-group col-md-8">
       {!! Form::label('name', 'Agency Name'); !!}

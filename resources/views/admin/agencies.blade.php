@@ -10,6 +10,7 @@
       <tr>
         <th>ID</th>
         <th>Name</th>
+        <th>Logo</th>
         <th>Address</th>
         <th>Email</th>
         <th>Website</th>
@@ -18,13 +19,14 @@
         <th>Mobile1</th>
         <th>Mobile2</th>
         <th>License</th>
-        <th>Action</th>
+
       </tr>
     </thead>
     <tbody>
 
     @foreach( $allAgencies as $agency )
       <tr>
+        <td>{{$agency->id}}</td>
         <td>{{$agency->name}}</td>
         <td>{{$agency->img}}</td>
         <td>{{$agency->address}}</td>

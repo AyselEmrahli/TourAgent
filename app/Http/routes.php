@@ -28,14 +28,15 @@ Route::get('admin/addnews',function(){
 Route::get('admin/addagency',function(){
     return view('admin.addAgency');
 });
+Route::get('admin/agencies','AgencyController@showAgencies');
+Route::post('admin/agencies','AgencyController@store');
 
 
 Route::get('admin/tours',function(){
     return view('admin.tours');
 });
 
-Route::get('admin/agencies','AgencyController@showAgencies');
-Route::post('admin/agencies','AgencyController@store');
+
 
 
 
