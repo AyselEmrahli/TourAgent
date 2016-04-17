@@ -24,8 +24,8 @@ class AgencyController extends Controller
 
 		if (Input::file('agency_logo')->isValid()) {
 			$destinationPath = 'uploads'; // upload path
-			$extension = Input::file('agency_logo')->getClientOriginalExtension(); // getting image extension
-			$fileName = rand().'.'. $extension; // renameing image
+			$extension = Input::file('agency_logo')->getClientOriginalExtension(); // getting logo_image extension
+			$fileName = rand().'.'. $extension; // renameing logo_image
 			Input::file('agency_logo')->move($destinationPath, $fileName);
 		}
 		$agen=new Agency;
