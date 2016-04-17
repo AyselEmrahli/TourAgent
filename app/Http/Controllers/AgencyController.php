@@ -16,7 +16,10 @@ class AgencyController extends Controller
 			return view('admin.agencies',compact('allAgencies'));
     }
 
-
+	public function showAddAgency()
+	{
+		return view('admin.addAgency');
+	}
 
 	public function store(Request $request) 
 	{

@@ -25,9 +25,7 @@ Route::get('admin/addnews',function(){
 
 
 
-Route::get('admin/addagency',function(){
-    return view('admin.addAgency');
-});
+Route::get('admin/addagency','AgencyController@showAddAgency');
 Route::get('admin/agencies','AgencyController@showAgencies');
 Route::post('admin/agencies','AgencyController@store');
 
