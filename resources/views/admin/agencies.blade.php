@@ -10,15 +10,11 @@
       <tr>
         <th>ID</th>
         <th>Name</th>
-        <th>Logo</th>
         <th>Address</th>
         <th>Email</th>
         <th>Website</th>
         <th>Phone1</th>
-        <th>Phone2</th>
         <th>Mobile1</th>
-        <th>Mobile2</th>
-        <th>License</th>
 
       </tr>
     </thead>
@@ -28,19 +24,15 @@
       <tr>
         <td>{{$agency->id}}</td>
         <td>{{$agency->name}}</td>
-        <td>{{$agency->img}}</td>
         <td>{{$agency->address}}</td>
         <td>{{$agency->email}}</td>
         <td>{{$agency->website}}</td>
         <td>{{$agency->phone1}}</td>
-        <td>{{$agency->phone2}}</td>
         <td>{{$agency->mobile1}}</td>
-        <td>{{$agency->mobile2}}</td>
-        <td>{{$agency->license}}</td>
         <td>
-          <a href="#" title="Get information about this tour" class="btn btn-sm btn-info"><i class="fa fa-info"></i></a>
-          <a href="#" title="Delete this tour" class="btn btn-sm btn-danger"><i class="fa fa-trash-o"></i></a>
-          <a href="#" title="Edit this tour" class="btn btn-sm btn-success"><i class="fa fa-edit"></i> Edit</a>
+          <a href="agencies/{{$agency->id}}" title="Get information about this agency" class="btn btn-sm btn-info"><i class="fa fa-info"></i></a>
+          <a href="agencies/delete/{{$agency->id}}" title="Delete this agency" class="btn btn-sm btn-danger"><i class="fa fa-trash-o"></i></a>
+          <a href="agencies/edit/{{$agency->id}}" title="Edit this agency" class="btn btn-sm btn-success"><i class="fa fa-edit"></i> Edit</a>
         </td>
       </tr>
      @endforeach

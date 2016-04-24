@@ -28,6 +28,10 @@ Route::get('admin/addnews',function(){
 Route::get('admin/addagency','AgencyController@showAddAgency');
 Route::get('admin/agencies','AgencyController@showAgencies');
 Route::post('admin/agencies','AgencyController@store');
+Route::get('admin/agencies/{agency}','AgencyController@showAgency');
+Route::get('admin/agencies/delete/{id}','AgencyController@deleteAgency');
+Route::get('admin/agencies/edit/{id}','AgencyController@Showedit');
+Route::post('admin/agencies/edit/{id}/update','AgencyController@update');
 
 
 Route::get('admin/tours',function(){

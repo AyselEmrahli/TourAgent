@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Agency;
 use App\Http\Requests;
-use DB;
+use App\Agency;
 use Illuminate\Support\Facades\Input;
+//use DB;
 class AgencyController extends Controller
 {
 	 public function showAgencies()
@@ -16,38 +16,55 @@ class AgencyController extends Controller
 			return view('admin.agencies',compact('allAgencies'));
     }
 
+
+	public function showAgency($id)
+	{
+		$agenc = Agency::find($id);
+		return view('admin.agency',compact('agenc'));
+	}
+
+	public function deleteAgency($id)
+	{
+		$agenc = Agency::find($id)->delete();
+		return redirect('admin/agencies');
+
+	}
+
 	public function showAddAgency()
 	{
-		return view('admin.addAgency');
+
+	return view('admin.addAgency');
+
 	}
 
-	public function store(Request $request) 
+
+	public function store(Agency $agency)
 	{
 
+		$agency->addAgency();
+		return redirect('admin/agencies');
+    
+}
 
-		if (Input::file('agency_logo')->isValid()) {
-			$destinationPath = 'uploads'; // upload path
-			$extension = Input::file('agency_logo')->getClientOriginalExtension(); // getting logo_image extension
-			$fileName = rand().'.'. $extension; // renameing logo_image
-			Input::file('agency_logo')->move($destinationPath, $fileName);
-		}
-		$agen=new Agency;
-		$agen->name=$request->agency_name;
-		$agen->img=$fileName;
-		$agen->address=$request->agency_address;
-		$agen->email=$request->agency_email;
-		$agen->website=$request->agency_website;
-		$agen->phone1=$request->agency_phone1;
-		$agen->phone2=$request->agency_phone2;
-		$agen->mobile1=$request->agency_mobile1;
-		$agen->mobile2=$request->agency_mobile2;
-		$agen->password=$request->agency_pass;
-		$agen->license=$request->agency_license;
-//			 $agen=array_values($request->all());
-		$agen->save();
-//			 return $agen;
+	
+
+	// public function showEdit($id)
+	// {	
+
+	// }
+
+public function Showedit($id)
+	{
+
+		$upAgency = Agency::where('id',$id)->first();
+		return view('admin.editAgency',compact('upAgency'));
+
+}
+
+ 	public function update($id, Agency $agency)
+	{
+		$agency->updateAgency($id);
 		return redirect('admin/agencies');
 	}
-
-    
+		
 }
